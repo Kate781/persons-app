@@ -1,0 +1,12 @@
+@media (max-width: 767px) {
+    html {
+        --persons-app-padding: 15px;
+        --persons-app-padding-l: 30px;
+    }
+    body {
+        font-size: 14px;
+    }
+    h1 {
+        font-size: 1.75em;
+    }
+}
