@@ -1,0 +1,21 @@
+1. Установка Laravel
+laravel new persons-app
+cd persons-app
+php artisan serve
+
+2. layouts/app.blade.php - basic page layout
+
+3. index.blade.php - home page
+
+4. Миграция базы данных
+php artisan migrate
+
+5. Создание новой таблицы persons
+php artisan make:migration create_persons_table
+php artisan migrate
+
+6. Создание модели Person
+php artisan make:model Person -m
+
+7. Создание контроллера PersonController
+php artisan make:controller PersonController --resource --model=Person
